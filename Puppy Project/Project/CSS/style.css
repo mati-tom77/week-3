@@ -1,0 +1,79 @@
+/* Header  section*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+/* font-family: 'DM Sans', sans-serif; */
+.lovers-page{
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 27px;
+    padding-bottom: 24px;
+    text-align: center;
+    background-color:#085070;
+    color: white;
+}
+.banner img{
+    width: 100%;
+}
+.banner{
+    margin-bottom: 84px;
+}
+/* puppy section one */
+
+.puppy-1,
+.missing-puppy,
+.puppy-2 {
+    width: 33%;
+}
+.puppy-1 img,
+.missing-puppy img,
+.puppy-2 img {
+width: 100%;
+} 
+.first-puppy{
+margin-left: auto;
+margin-right: auto;
+width: 960px; 
+display: flex;
+margin-bottom: 50px;
+justify-content: space-between;
+}
+.missing-puppy{
+    background-color: brown;
+    /* border: 2px dashed black; */
+    /* background-image:url(../image/puppy-4.jpg); */
+}
+.missing-puppy h1{
+    margin: 90px 20px 30px 20px;
+    font-size: 40px;
+}
+.last-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.fixed-cont{  
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fixed-cont h1{
+    text-align: center;
+}
+/* footer section */
+.footer-section{
+    background-color: #085070;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    margin-top: 75px; 
+    color: white; 
+    text-align: center;
+    font-size: 30px;
+}

@@ -1,0 +1,203 @@
+/* 9 important ppt */
+/* 1.four commonly used display */ */
+div{
+    display: block;
+    display: inline;
+    /* display: inline-block;gone to gone */
+    display: none;
+    /* display: flex;all inside container */
+} 
+/* 2.Width and Height */
+img {
+max-width: 100%;
+height: auto;
+}
+/* 3.Margin and Padding */
+div{
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 10px;
+margin-left: 10px
+}
+div{
+margin: 20px 10px 20px 10px;
+/* This shorthand refers to TOP, Right, Bottom, Left.
+Its easier to picture a clock at 12, 3, 6 and 9 respectively */
+margin: 20px 10px 20px;
+/* This refers to Top, Left and Right, Bottom */
+margin: 20px 10px;
+/* This refers to Top and Bottom, Left and Right */
+margin: 20px;
+/* This refers to 20px worth of margin on all 4 sides */
+}
+div {
+margin: 0 auto;
+}
+/* 4.Border */
+div{
+border: 1px solid black;
+/* border width, style and color */
+}
+/* 5: Floats */
+/* 6: Clearing Floats */
+/* 7: Color */
+/* 8: Background */
+body {
+    background-color: black;
+    background-position: top;
+    background-repeat: inherit;
+    background-image: -webkit-image-set();
+/* background:transparent image-url('image.png') left top o-repeat;
+/* All background definitions are option, but at least
+one must be stated. The above are default values given to
+background if you have left anything undefined */
+}
+/* 9: Font */
+body {
+    font-size: large;
+    font-style: normal;
+    font: var();
+    font-weight: 700;
+    font: family;
+/* font: italic small-caps bold 20px/1.5 "Proxima Nova",
+helvetica, arial, sans-serif; */
+/* font shorthand */
+}
+/* im{
+    max-width: 100%;
+}
+/* .tom{
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    width: 100%;
+}  */
+/* .lovers-heder{
+background-color: cornflowerblue;
+color: white;
+padding-top: 1px;
+padding-bottom: 1px;
+text-align: center;
+}
+.banner{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+} */
+/* .puppy-1{
+    display: inline-block;
+}
+.missing-puppy{
+    display: inline-block;
+}
+.puppy-2{
+    display: inline-block;
+} */
+/* .theree-puppy{
+    display: flex;
+}
+.last-two{
+    display: flex;
+} */
+/* puppy-2 img{
+    width: 600px;
+} */
+/* .puppy-1,
+.missing-puppy,
+.puppy-2 {
+    width: 33%;
+}
+.puppy-1 img,
+.missing-puppy img,
+.puppy-2 img {
+    width: 100%;
+} */
+/* .puppy-1{
+    position: relative;
+}  */
+/* .puppy-1{
+    position: fixed;
+    top: 10px;
+    left:300px;
+}  */
+/* .puppy-1{
+    position: absolute;
+    top: 10px;
+    left:300px;
+} */
+/* .puppy-1,.missing-puppy,
+.puppy-2 {
+margin-bottom: 100px;
+margin-top: 50px;
+margin-left: 100px;
+margin-right: 100;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.missig{
+    background-color:indianred;  
+    padding-left: 50px;
+    padding-right: 50px;
+} 
+.puppy-3,.puppy-4 {
+    padding-top: 10;
+    padding-bottom: 10;
+    margin-bottom: 200px;
+    /* margin-right: 10px; */
+    /* margin-left: 100px */
+    
+/* }
+.puppy-4,img{
+margin-right: 100px;
+margin-left: 100px
+}
+.more-puppies{
+    text-align: center;
+    padding-top: 1px;
+    /* padding-bottom: 100px; */
+    /* margin-bottom: 70px;
+    margin-top: 100p 
+    
+} */ 
+/* .tom-footer{
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center; 
+    display:block;
+    /* margin-top: 100px; */
+    /* margin-bottom: 100px; */
+    /* padding-top: 100px;
+    padding-bottom: 100px;
+} */
+/* .theree-puppy{ */
+    /* display: flex;
+    margin-bottom: 100px;
+    padding-top: 100;
+    padding-bottom: 100;
+}
+.more{
+    text-align: center;
+}  */
+
+/* .par,.last-two{
+    display: flex;
+}
+.last-two{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+/* .tom-footer,.last-puppies{
+    margin-top: 1px; 
+    margin-bottom: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */ 

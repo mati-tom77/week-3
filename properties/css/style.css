@@ -1,0 +1,33 @@
+/* four commonly used display */
+/* div{
+    display: block;
+    display: inline;
+    display: inline-block;
+    display: none;
+} */
+div{
+    display:inline-block;
+    color: blue;
+}
+div{
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 10px;
+margin-left: 100px
+}
+div {
+margin: 0 auto;
+}
+div{
+border: 3px dashed black;
+}
+body{
+    background-color: brown;
+    background-position: center;
+    background-repeat: initial;
+}
+div{
+    font-size:medium;
+    font-weight: 2000;
+    font-style: italic;
+}
